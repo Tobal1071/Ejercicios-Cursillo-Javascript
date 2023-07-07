@@ -1,0 +1,53 @@
+Ejercicio 1 - ¿Gymbros?
+
+Nos acabamos de apuntar al gym. Después de ver tres mil tik toks sobre el gym vemos en uno que antes de empezar debemos calcular nuestro IMC (Índice de Masa Corporal).
+
+Para calcular el IMC se usa la siguiente formula:
+        IMC = masa / altura^2 = masa / (altura * altura)
+
+- Guarda las masas y alturas de tu colega y tu  en variables (pon los valores que quieras).
+- Calcula ambos IMC.
+-Crea una variable booleana que contenga información sobre si tu colega  tiene un IMC mayor que tu.
+-Muestra un texto en la consola que contenga la variable del paso 3. Algo así como
+¿Es mi colega menos flaqui que yo  ?: true
+
+
+Ejercicio 2 - Numeros 
+
+Crea una función que reciba dos números por parámetro. El primer número indicará cuantas
+veces debemos imprimir el segundo por pantalla, pero en cada iteración muestra el valor
+anterior multiplicado por 2. Por ejemplo, si recibe 4 y 6 la salida será: 6 12 24 48.
+
+
+Ejercicio 3 - Facturas
+
+Crea una función que reciba tres parámetros (nombre de producto, precio e impuesto en
+porcentaje sobre 100). La función hará lo siguiente:
+• los parámetros deberán tener un valor por defecto por si no los recibe que deben ser:
+"Producto genérico", 100 y 21
+• si los números no son válidos (isNaN()) muestra un error. Si son válidos, muestra por
+consola el nombre del producto y el precio final contando impuestos
+
+
+Ejercicio 5 - Mi gente stamo en Japon 
+
+Por cosas del destino acabamos de aterrizar en Japón. Hemos consultado información en internet y nos hemos dado cuenta de que es cultura dejar propinas.
+Como no somos unos hachas en las mates , decidimos programar una calculadora para dejar propinas. Durante el día hemos visitado tres restaurantes distintos. Hemos pagado 164 , 30 , 300.
+Nos gustaría dejar las siguientes propinas:
+
+- Si es menor de 50 un 20%.
+
+- Si es entre 50 - 200 un 15%.
+
+- Si la factura es mas de 200 un 10%.
+
+Al final nos gustaria tener tres arrays
+
+- El primero contiene el valor de todas las facturas. Este no se calcula, hay que crear el
+array poniendo a mano los valores.
+
+- El segundo contiene las tres propinas (una por cada factura).
+
+- El tercero contiene las tres cantidades finales que tiene que pagar. 
+
+Muestra el resultado por pantalla debidamente formateado.
